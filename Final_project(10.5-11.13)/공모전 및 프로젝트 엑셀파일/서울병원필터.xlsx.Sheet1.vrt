@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="서울병원필터-Sheet1">
+        <SrcDataSource relativeToVRT="1">서울병원필터.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>Sheet1</SrcLayer>
+        <Field name="Field1" src="Field1" type="Integer"/>
+        <Field name="Field2" src="Field2" type="String"/>
+        <Field name="Field3" src="Field3" type="String"/>
+        <Field name="Field4" src="Field4" type="Integer"/>
+        <Field name="Field5" src="Field5" type="String"/>
+        <Field name="Field6" src="Field6" type="Integer"/>
+        <Field name="Field7" src="Field7" type="String"/>
+        <Field name="Field8" src="Field8" type="Integer"/>
+        <Field name="Field9" src="Field9" type="String"/>
+        <Field name="Field10" src="Field10" type="String"/>
+        <Field name="Field11" src="Field11" type="Integer"/>
+        <Field name="Field12" src="Field12" type="String"/>
+        <Field name="Field13" src="Field13" type="String"/>
+        <Field name="Field14" src="Field14" type="String"/>
+        <Field name="Field15" src="Field15" type="Integer"/>
+        <Field name="Field16" src="Field16" type="Integer"/>
+        <Field name="Field17" src="Field17" type="Integer"/>
+        <Field name="Field18" src="Field18" type="Integer"/>
+        <Field name="Field19" src="Field19" type="Integer"/>
+        <Field name="Field20" src="Field20" type="Integer"/>
+        <Field name="Field21" src="Field21" type="Integer"/>
+        <Field name="Field22" src="Field22" type="Integer"/>
+        <Field name="Field23" src="Field23" type="Integer"/>
+        <Field name="Field24" src="Field24" type="Integer"/>
+        <Field name="Field25" src="Field25" type="Integer"/>
+        <Field name="Field26" src="Field26" type="Integer"/>
+        <Field name="Field27" src="Field27" type="Integer"/>
+        <Field name="Field28" src="Field28" type="Integer"/>
+        <Field name="Field29" src="Field29" type="Integer"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="Field30" y="Field31"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
