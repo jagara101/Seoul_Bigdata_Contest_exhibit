@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="행정동병합최종">
+        <SrcDataSource relativeToVRT="1">행정동병합최종.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>Sheet1</SrcLayer>
+        <Field name="Unnamed: 0" src="Unnamed: 0" type="Integer"/>
+        <Field name="시도명" src="시도명" type="String"/>
+        <Field name="시군구코드" src="시군구코드" type="Integer"/>
+        <Field name="시군구명" src="시군구명" type="String"/>
+        <Field name="행정동코드" src="행정동코드" type="Integer"/>
+        <Field name="행정동코드_수정" src="행정동코드_수정" type="Integer"/>
+        <Field name="읍면동명" src="읍면동명" type="String"/>
+        <Field name="생성일자" src="생성일자" type="Integer"/>
+        <Field name="말소일자" src="말소일자" type="Integer"/>
+        <Field name="지하철역_수" src="지하철역_수" type="Integer"/>
+        <Field name="의료기관_수" src="의료기관_수" type="Integer"/>
+        <Field name="사회복지시설_수" src="사회복지시설_수" type="Integer"/>
+        <Field name="계(명)" src="계(명)" type="Integer"/>
+        <Field name="면적 (k㎡)" src="면적 (k㎡)" type="Real"/>
+        <Field name="구성비 (%)" src="구성비 (%)" type="Real"/>
+        <Field name="행정동별_공원수" src="행정동별_공원수" type="Integer"/>
+        <Field name="공공체육시설_수" src="공공체육시설_수" type="Integer"/>
+        <Field name="문화시설_수" src="문화시설_수" type="Integer"/>
+        <Field name="학교_수" src="학교_수" type="Integer"/>
+        <Field name="사업체_수" src="사업체_수" type="Integer"/>
+        <Field name="개소 (공영+민영)" src="개소 (공영+민영)" type="Integer"/>
+        <Field name="면수 (공영+민영)" src="면수 (공영+민영)" type="Integer"/>
+        <Field name="하천및한강여부" src="하천및한강여부" type="String"/>
+        <Field name="아동인구(0~9세)" src="아동인구(0~9세)" type="Integer"/>
+        <Field name="노인인구(65세이상)" src="노인인구(65세이상)" type="Integer"/>
+        <Field name="장애인_인구" src="장애인_인구" type="Integer"/>
+        <Field name="세대당공원면적" src="세대당공원면적" type="Real"/>
+        <Field name="보육시설수" src="보육시설수" type="Integer"/>
+        <Field name="세대당공원면적minmax" src="세대당공원면적minmax" type="Real"/>
+        <Field name="수변점수" src="수변점수" type="Integer"/>
+        <Field name="행정동별버스정류장수" src="행정동별버스정류장수" type="Integer"/>
+        <Field name="행정동별유통업체수" src="행정동별유통업체수" type="Integer"/>
+        <Field name="공공자전거대여소수" src="공공자전거대여소수" type="Integer"/>
+        <Field name="인구밀도" src="인구밀도" type="Real"/>
+        <Field name="여가생활지수minmax" src="여가생활지수minmax" type="Real"/>
+        <Field name="사회적약자_지원_인프라_밀집도minmax" src="사회적약자_지원_인프라_밀집도minmax" type="Real"/>
+        <Field name="접근성지수minmax" src="접근성지수minmax" type="Real"/>
+        <Field name="그린지수minmax" src="그린지수minmax" type="Real"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
